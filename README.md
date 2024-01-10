@@ -1,56 +1,55 @@
-# Nunes-Sports
+# Projeto Nunes Sports - Sistema de Gerenciamento de Produtos
+
 Este é um projeto fictício desenvolvido para atender às necessidades da empresa Nunes Sports. O sistema é uma aplicação web que permite a exibição, criação, edição e exclusão de produtos vendidos pela empresa.
 
-#Tecnologias Utilizadas
-Insomnia: Utilizado para testar e documentar as chamadas da API.
+## Tecnologias Utilizadas
+- **Insomnia:** Utilizado para testar e documentar as chamadas da API.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/f36e0786-fccf-4eca-8274-3bbf817f1e91)
 
-image
+- **MongoDB:** Banco de dados NoSQL utilizado para armazenar os dados dos produtos.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/e93e82fb-63dd-40c2-8f78-681ba038c342)
 
-MongoDB: Banco de dados NoSQL utilizado para armazenar os dados dos produtos.
+- **Spring Boot:** Framework utilizado para desenvolver a aplicação web.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/a0b46380-ca79-4b92-886f-933bd13cddbd)
 
-image
+- **GitHub:** Repositório versionado para armazenar o código-fonte do projeto.
 
-Spring Boot: Framework utilizado para desenvolver a aplicação web.
+## Estrutura do Projeto
+- `src/main/java/com/nunessports`: Contém os arquivos Java relacionados à aplicação Spring Boot.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/0fb477b5-79dd-4d0c-82ec-51ebb7a912b9)
 
-image
+- `src/main/resources`: Contém arquivos de configuração e recursos estáticos.
+- `src/test`: Contém os testes automatizados.
 
-GitHub: Repositório versionado para armazenar o código-fonte do projeto.
+## Executando a Aplicação
+1. Clone o repositório: `git clone https://github.com/teofilonicolau/NunesSports.git`
+2. Abra o projeto em sua IDE favorita.
+3. Execute a aplicação Spring Boot.
+4. Acesse (http://localhost:8080/api/produtos) para utilizar a aplicação.
+5. ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/d5d431d3-acdc-42ff-bc02-6dc6a889f604)
 
-Estrutura do Projeto
-src/main/java/com/nunessports: Contém os arquivos Java relacionados à aplicação Spring Boot.
 
-image
+## API Endpoints
+A aplicação fornece uma API REST para interação com os produtos. Aqui estão alguns endpoints principais:
+![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/f3858331-83c9-44e5-83df-fdfb14333471)
 
-src/main/resources: Contém arquivos de configuração e recursos estáticos.
 
-src/test: Contém os testes automatizados.
 
-Executando a Aplicação
-Clone o repositório: git clone https://github.com/teofilonicolau/NunesSports.git
-Abra o projeto em sua IDE favorita.
-Execute a aplicação Spring Boot.
-Acesse (http://localhost:8080/api/produtos) para utilizar a aplicação.
-image
-API Endpoints
-A aplicação fornece uma API REST para interação com os produtos. Aqui estão alguns endpoints principais: image
 
-GET /api/produtos: Obtém a lista de todos os produtos.
+- **GET /api/produtos:** Obtém a lista de todos os produtos.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/5278a39d-791c-48d6-8077-444d001037b2)
 
-image
+- **POST /api/produtos:** Cria um novo produto.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/daa3a112-590d-4bfa-9174-b4cdb4da5c23)
 
-POST /api/produtos: Cria um novo produto.
+- **PUT /api/produtos/{id}:** Atualiza os dados de um produto existente.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/29419127-a2c7-4f36-9aca-e6b9a6b5ca8f)
 
-image
+- **DELETE /api/produtos/{id}:** Exclui um produto com base no ID.
+- ![image](https://github.com/teofilonicolau/nunes_sports_spring_boot/assets/97030160/751a16e9-ee6e-4f84-8d7c-e1a5ba415283)
 
-PUT /api/produtos/{id}: Atualiza os dados de um produto existente.
 
-image
-
-DELETE /api/produtos/{id}: Exclui um produto com base no ID.
-
-image
-
-Contribuição
+## Contribuição
 Se você deseja contribuir para o desenvolvimento deste projeto, sinta-se à vontade para abrir issues, enviar pull requests ou fornecer feedback.
 
 Lembre-se de seguir as boas práticas de desenvolvimento, padrões de codificação e conceitos de Clean Code e SOLID.
